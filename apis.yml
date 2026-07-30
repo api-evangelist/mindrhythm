@@ -1,22 +1,62 @@
 aid: mindrhythm
-name: Mindrhythm
-description: Mindrhythm is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: MindRhythm
+description: >-
+  MindRhythm is a medical technology company focused on improving outcomes caused
+  by neurological injury. Founded by scientific experts with prior commercialization
+  success, the company builds a detection and monitoring platform — anchored by its
+  Headpulse technology — that provides real-time visibility into life-threatening
+  neurological events such as large-vessel-occlusion stroke and concussion, across
+  the home, EMS, battlefield, and clinical settings. MindRhythm publishes clinical
+  studies, news, and company/leadership information on its site; it does not expose a
+  public developer API, SDK, or API documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/mindrhythm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - dcvc
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-api-surface
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://mindrhythm.com/wp-content/uploads/2020/06/mark-white.png
 tags:
 - Company
+- Healthcare
+- Medical Devices
+- Neurodiagnostics
+- Neurology
+- Stroke Detection
+- Medical Technology
+- Health
 apis: []
+common:
+- type: Website
+  url: https://mindrhythm.com/
+- type: PrivacyPolicy
+  url: https://mindrhythm.com/privacy-policy/
+- type: Blog
+  url: https://mindrhythm.com/in-the-news/
+- type: DomainSecurity
+  url: security/mindrhythm-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
